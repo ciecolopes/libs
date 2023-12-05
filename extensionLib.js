@@ -12,7 +12,7 @@ function somar(a, b) {
 
 // Expondo funcionalidades publicamente
 // Isso é necessário para que outras partes do código possam acessar essas funções e variáveis
-module.exports = {
+export {
   minhaVariavel: minhaVariavel,
   minhaFuncao: minhaFuncao,
   somar: somar
